@@ -1,0 +1,10 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"recipe"},
+{"type":"table","name":"recipe","database":"recipe","data":
+[
+{"recipe_no":"1","ingredients":"Garlic Cloves, Coconut Oil,Paprika, Borlotti Beans, Cherry Tomatoes, Limes, Avocados, Spring Greens, Tortillas","name_of_recipe":"Vegetarian Burritos"},
+{"recipe_no":"2","ingredients":"pasta, mushroom, milk","name_of_recipe":"spaghetti"}
+]
+}
+]
