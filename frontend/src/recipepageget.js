@@ -15,8 +15,8 @@ xhr.onload = function() {
 
     var myRecipeInfo = "";
     for (i=0; i<recipeInfo.length; i++) {
-        var x=i+1;
-        myRecipeInfo += "<br>"+ "Recipe Number: "+x+" <br>";
+        // var x=i+1;
+        myRecipeInfo += "<br>"+ "Recipe Number: "+recipeInfo[i].recipeNo+" <br>";
         myRecipeInfo += "Recipe Name: "+recipeInfo[i].nameOfRecipe+" <br>";
         myRecipeInfo += "Ingredients: "+recipeInfo[i].ingredients+" <br>";
     } // end loop

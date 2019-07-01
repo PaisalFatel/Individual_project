@@ -58,7 +58,7 @@ function regUser(value) {
     request.open('POST', address, true);
     request.setRequestHeader('Content-Type', 'application/json');
     request.send(value);
-    window.location='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/recipepage.html';
+    // window.location='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/recipepage.html';
  }
 
 
