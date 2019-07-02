@@ -12,6 +12,8 @@ public interface ITodoService {
 	void deleteTodo(Long id);
 
 	Recipe addTodo(Recipe todo);
+	
+	Recipe updateTodo(Recipe todo);
 
 	Optional<Recipe> findById(long id);
 

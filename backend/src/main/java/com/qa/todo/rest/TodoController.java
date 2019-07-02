@@ -45,6 +45,11 @@ public class TodoController {
 		return ResponseEntity.ok(todoService.getTodo());
 	}
 
-
+	@RequestMapping(value = Constants.TODO, method = RequestMethod.PUT)
+	public ResponseEntity<Recipe> updateTodo(@RequestBody Recipe todo) {
+		return ResponseEntity.ok(todoService.addTodo(todo));
+	}
+	
+ 
 
 }

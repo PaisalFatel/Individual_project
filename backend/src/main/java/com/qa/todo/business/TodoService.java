@@ -23,6 +23,11 @@ public class TodoService implements ITodoService {
 		todoRepository.deleteById(id);
 		
 	}
+	
+	public Recipe updateTodo(Recipe todo) {
+		return todoRepository.save(todo);
+		
+	}
 
 	public Recipe addTodo(Recipe todo) {
 		return todoRepository.save(todo);
