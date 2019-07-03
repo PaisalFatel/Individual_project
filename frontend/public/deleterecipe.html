@@ -2,28 +2,54 @@
 <html>
 <head> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="C:/Users/Faisal/Desktop/HTML/css/layout.css"> 
+        <link rel="stylesheet" href="C:/Users/Faisal/Desktop/HTML/css/layout.css">
+        <link rel="stylesheet" href="C:/Users/Faisal/Desktop/todo-app-master/frontend/src/navbar.css"> 
+
 </head>
 
 <body>
+
+        <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/properhomepage.html'>home</a>
+                <a href='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/recipepage.html'>all recipes</a>
+                <a href='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/homepage.html'>add recipe</a>
+                <a href='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/deleterecipe.html'>delete recipe</a>
+                <a href='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/updaterecipe.html'>update recipe</a>
+
+                <a href='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/contactus.html'>contact us</a>
+              </div>
+              
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776; waitermelon.</button> 
+              </div>
+
         <div id = "header" class = "content">
                 <nav class="navbar navbar-light bg-light">
                         <a class="navbar-brand" href="#">Delete Recipe</a>
                       </nav>
         </div>
 
-        <form class = "content" onclick="deleteRecipe()" >
+        <form class = "content" onsubmit="return handleSubmit(this)" >
             <input type = "text" name = "recipeNo" id = "recipeNo" placeholder = "Recipe Number" required>
             <input type = "submit" name = "submitbutton" id = "submitbutton" class = "regButton">
         </form>
 
 
-<div id='message' class="content">
+<div id='message' class="content"></div>
 
+<!-- <div class = "content">        <button type="button" onclick="window.location='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/homepage.html';" class="regButton">Back To Adding Recipes!</button>
 </div>
+
+<div class = "content">        <button type="button" onclick="window.location='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/recipepage.html';" class="regButton">See All Recipes!</button>
+</div>
+
+<div class = "content">        <button type="button" onclick="window.location='C:/Users/Faisal/Desktop/todo-app-master/frontend/public/updaterecipe.html';" class="regButton">Change A Recipe</button>
+</div> -->
 
 
         <script src = "C:/Users/Faisal/Desktop/todo-app-master/frontend/src/deleterecipe.js"></script>
+        <script src = "C:/Users/Faisal/Desktop/todo-app-master/frontend/src/navbar.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
