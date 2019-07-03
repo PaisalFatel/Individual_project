@@ -33,6 +33,23 @@ The following technologies was used in the creating of the website:
 
 The combination of technologies used to create the backend, frontend and database aided me in building a full-stack application.
 
-Step 4.1: Simple Backend
-    - By implementing the reference architecture into my work, I was able to produce a fully working and connected backend to my database. See 'backend' folder.
-        -> 
+Step 4: Creation Stage (Part 1)
+    - Database Structure
+    - Working backend
+    - All stages are working in tandem with each other (CRUD) [see 'Step 5']
+
+Step 5: Testing (Part 1)
+    - Install client to test API (Postman was used)
+    - Tested all CRUD functionalities to work as expected
+
+Step 6: Creation Stage (Part 2)
+    - Using the wireframes as a tool, I implemented the desired layout including:
+        -> Routing mechanism around the website
+        -> Implementation of CRUD in frontend
+
+Step 7: Testing (Part 2)
+    - Checking full app, API and database functionality
+
+Improvements
+-----------
+
