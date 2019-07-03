@@ -13,28 +13,26 @@ I wanted to create an environment where the user is able to simply make use of t
 
 Web Application (Creation)
 -----------
+Step 1: Creation of Trello Boards
+    - I wanted to understand and paint a picture of what I wanted to see on the website
+    - I created a product backlog which outlines possible routes for website creation
 
+Step 2: Creation of website wireframes
+    - Using 'mockflow' for wireframe drawing I was able to visualise what I wanted to implement from the product backlog
 
+Step 3: Research stage
+The following technologies was used in the creating of the website:
+    - Backend: Java / Spring boot
+        -> By using the reference architecture, I was able to implement my logic. See 'backend' folder.
 
+    - Datebase: mySQL
+        -> This was (in my opinion) the easiest to implement into my website after trying with H2 SQL and failing multiple times in trying to save locally.
 
-This system is built with the following technologies:
+    - Frontend: HTML / JS / CSS
+        -> I was most comfortable with the combination of the above technologies. This was the main combination used in the 'frontend week'
 
--   [Spring boot](https://spring.io/projects/spring-boot) [server side services]
+The combination of technologies used to create the backend, frontend and database aided me in building a full-stack application.
 
--   [React.js](https://reactjs.org/) [client side components]
-
--   [H2](https://www.h2database.com) [relational data]
-
-Prerequisite
------
-Prior to running this application we need to setup our windows environments. Please complete the following installation steps in order: Java, Maven, GIT, Node.js and create-react-app (npm install -g create-react-app)
-
-Note: If you have problems please contact your team mates via Slack.
-
-Project Management
----------------
-This project uses an agile methodology. Please see example board at the following link: [https://trello.com/b/msUSX9Vs/todo-board](https://trello.com/b/msUSX9Vs/todo-board)
-
-Architecture
----------------
-The following diagram shows the high level reference architecture for the application: ![](./arch.jpg)
+Step 4.1: Simple Backend
+    - By implementing the reference architecture into my work, I was able to produce a fully working and connected backend to my database. See 'backend' folder.
+        -> 
