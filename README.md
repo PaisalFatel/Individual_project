@@ -71,8 +71,20 @@ Step 6: Creation Stage (Part 2)
 Step 7: Testing (Part 2)
 
     - Checking full app, API and database functionality
-    
 
-Improvements
+
+Conclusion
 -----------
 
+Highs:
+
+    - I was successful in implementing CRUD functionalities
+    - Was able to create a simple but useful website
+
+Lows:
+
+    - I didnt meet all the criteria set out in the product backlog
+        -> This includes a search bar, uploading of images and a login page
+        -> I was over ambitious at the start and therefore wasn't realistic in my approach
+
+    - I intially set out to create a website that could be accessible to all ages and disabilities however, from recent feedback the nav bar I used may be hard to use for the older generation
