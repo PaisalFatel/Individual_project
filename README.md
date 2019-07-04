@@ -88,3 +88,16 @@ Lows:
         -> I was over ambitious at the start and therefore wasn't realistic in my approach
 
     - I intially set out to create a website that could be accessible to all ages and disabilities however, from recent feedback the nav bar I used may be hard to use for the older generation
+
+Authors
+-----------
+
+Faisal Patel
+
+
+Acknowledgements
+-----------
+
+    - QA consulting with a special mention to The Shafeeq and Tadas
+
+    - The 2019 TDP cohort
