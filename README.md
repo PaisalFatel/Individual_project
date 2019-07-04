@@ -32,7 +32,7 @@ The following technologies was used in the creating of the website:
 
         -> By using the reference architecture, I was able to implement my logic. See 'backend' folder.
 
-    - Datebase: mySQL
+    - Datebase: mySQL (through XAMPP)
 
         -> This was (in my opinion) the easiest to implement into my website after trying with H2 SQL and failing multiple times in trying to save locally.
 
